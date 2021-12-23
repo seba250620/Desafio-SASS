@@ -1,7 +1,7 @@
 // PANTALLAS EXTRA ANCHAS
 
 @media(min-widht: 1400px) {
-    nav, .servicios, .footer-content, .presentacion {
+    nav, .servicios, .footer__content, .presentacion {
         width: 60%;
         margin: auto;
     }
@@ -10,7 +10,7 @@
 // PANTALLAS MEDINAS
 
 @media (max-width: 992px) {
-    .presentacion, .tipo-servicios {
+    .presentacion, .servicios__tipo {
         flex-direction: column;
     }
 

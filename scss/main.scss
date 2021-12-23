@@ -1,6 +1,6 @@
 @import 'global';
 
-.logo {
+.menu__logo {
     width: 100px;
     height: 20px;
 }
@@ -46,7 +46,7 @@ nav {
     padding-bottom: 50px;
     @include caja-flex (space-between, center, nowrap);
 
-    .flex-item2 {
+    .presentacion__flex-item2 {
         text-align: center;
     }
 
@@ -68,7 +68,7 @@ nav {
         text-align: center;
     }
 
-    .tipo-servicios {
+    .servicios__tipo {
         @include caja-flex (center, center, nowrap);
         i {
             font-size: 30px;
@@ -81,7 +81,7 @@ footer {
     min-height: 80px;
     background-color: rgb(52, 53, 51);
     margin-top: 0;
-    .footer-content {
+    .footer__content {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;

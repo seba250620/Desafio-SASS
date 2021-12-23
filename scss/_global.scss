@@ -34,12 +34,12 @@ img {
     height: auto;
 }
 
-nav, .servicios, .presentacion, .footer-content {
+nav, .servicios, .presentacion, .footer__content {
     width: 80%;
     margin: auto;
 }
 
-.titulo-servicios, .presentacion {
+.servicios__titulo, .presentacion {
     margin-bottom: 10%;
 }
 
@@ -75,13 +75,13 @@ h3 {
     font-weight: 500;
 }
 
-.btn-principal {
+.btn__principal {
     @extend .btn;
     color: #fff;
     background-color: #6495ED;
 }
 
-.btn-secundario {
+.btn__secundario {
     @extend .btn;
     background-color: rgb(134, 132, 132);
 }
